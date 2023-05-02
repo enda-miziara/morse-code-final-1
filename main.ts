@@ -20,6 +20,9 @@ input.onButtonPressed(Button.B, function () {
 })
 input.onGesture(Gesture.Shake, function () {
     Outcome = ""
+    basic.showIcon(IconNames.Yes)
+    basic.pause(2000)
+    basic.clearScreen()
 })
 let OutcomeValue = ""
 let MorseCodeIndex = 0
