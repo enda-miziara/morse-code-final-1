@@ -12,7 +12,7 @@ radio.onReceivedString(function (receivedString) {
         OutcomeValue = AlphaNum[MorseCodeIndex]
         basic.showString("" + (OutcomeValue))
     } else {
-        basic.showString("Character not found")
+        basic.showIcon(IconNames.Sad)
     }
 })
 input.onButtonPressed(Button.B, function () {
