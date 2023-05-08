@@ -24,6 +24,9 @@ input.onGesture(Gesture.Shake, function () {
     basic.pause(2000)
     basic.clearScreen()
 })
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+	
+})
 let OutcomeValue = ""
 let MorseCodeIndex = 0
 let ReceivedMorseCode = ""
